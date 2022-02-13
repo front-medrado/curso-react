@@ -1,0 +1,13 @@
+.text-input {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border ease-in-out .3s;
+    outline: none;
+}
+
+.text-input:hover, .text-input:active, .text-input:focus, .text-input:focus-visible {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
